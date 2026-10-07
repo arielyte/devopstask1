@@ -1,136 +1,71 @@
 <!DOCTYPE html>
-<html>
-
-
+<html lang="en">
 <head>
-	<title>Website Template | Simple Single-Page | Html | Css | Home Page</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" type="text/css" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A little corner of the internet for Ariel Veitsman, filled with ideas and quotes.">
+  <title>Ariel Veitsman — A little corner of the internet</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
-
 <body>
-    <div class="box">
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top">Ariel Veitsman<span class="brand-dot">.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#quotes">Quotes</a>
+        <a href="#closing">One more thought</a>
+      </nav>
+    </header>
 
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">Hello, internet</p>
+        <h1 id="hero-title">I'm <span>Ariel Veitsman.</span></h1>
+        <p class="hero-intro">Welcome to my little corner of the web. It's a place for interesting thoughts, small reminders, and the occasional quote that sticks.</p>
+        <a class="primary-link" href="#quotes">Read a few thoughts <span aria-hidden="true">↗</span></a>
+        <p class="hero-aside">“Stay curious. The next idea could be around the corner.”</p>
+      </section>
 
-	<div class="row content">
-		<div class="content-text">
-			<h1>This is a single-page html/css website template hosted on github.</h1>
-			<hr>
-			<h2>Heading (h2)</h2>
-			<p>Place your text here, place your text here, place your text here, place your text here,
-			place your text here, place your text here, place your text here, place your text here,
-			place your text here, place your text here, place your text here, place your text here,
-			place your text here, place your text here, place your text here, place your text here,
-			place your text here, place your text here, place your text here, place your text here,
-			place your text here, <i>place your text here, </i>place your text here, <i>place your text here.</i></p>
-			<h3>Heading (h3)</h3>
-			<p>Sample medium-sized text.</p>
+      <section class="about section-block" id="about" aria-labelledby="about-title">
+        <div>
+          <p class="eyebrow">A quick introduction</p>
+          <h2 id="about-title">A page with a little personality.</h2>
+        </div>
+        <div class="about-copy">
+          <p>I'm Ariel. This page is a collection of words worth pausing for: a bit of perspective, a bit of humor, and a reminder to keep moving.</p>
+          <p>“Make room for the things that make you look twice.”</p>
+        </div>
+      </section>
 
-			<h3>Heading (h3)</h3>
-			<p>Place your text here.</p>
+      <section class="quotes section-block" id="quotes" aria-labelledby="quotes-title">
+        <div class="section-heading">
+          <p class="eyebrow">Words to keep around</p>
+          <h2 id="quotes-title">A few quotes for the road.</h2>
+          <p>No grand rules. Just little thoughts to take or leave.</p>
+        </div>
+        <div class="quote-grid">
+          <blockquote><span class="quote-number">01 /</span><p>“Small steps still change the view.”</p></blockquote>
+          <blockquote><span class="quote-number">02 /</span><p>“A good question can open more doors than a quick answer.”</p></blockquote>
+          <blockquote><span class="quote-number">03 /</span><p>“The best stories usually start with trying something new.”</p></blockquote>
+          <blockquote><span class="quote-number">04 /</span><p>“Take the scenic route when you can.”</p></blockquote>
+          <blockquote><span class="quote-number">05 /</span><p>“A little progress is still a reason to celebrate.”</p></blockquote>
+          <blockquote><span class="quote-number">06 /</span><p>“Leave space for a pleasant surprise.”</p></blockquote>
+        </div>
+      </section>
 
-			<section class="downloads">
-				<h3>Downloads:</h3>
-				<p>Files included:</p>
-				<ul>
-					<li>test-file-1.txt</li>
-					<li>test-file-2.txt</li>
-					<li>test-file-3.txt</li>
-				</ul>
+      <section class="closing section-block" id="closing" aria-labelledby="closing-title">
+        <p class="eyebrow">Before you go</p>
+        <h2 id="closing-title">Keep your eyes open for the good stuff.</h2>
+        <p>Thanks for stopping by Ariel Veitsman's corner of the internet.</p>
+        <a href="#top">Back to the top ↑</a>
+      </section>
+    </main>
 
-				<a class="download-button" href="downloads/website-template-simple-single-page-v1.zip" download>
-					<span>Download</span>
-					<img src="images/download-icon-1.png" alt="" height="25">
-				</a>
-			</section>
-
-			<hr> <!-- this makes a line -->
-
-			<div class="float-right image-card">
-				<content-image>
-				<a href="images/test-image-1.jpg">
-				<img src="images/test-image-1.jpg" width="300" />
-				<span>test-image-1 (float-right)</span></a>
-				</content-image>
-			</div>
-
-
-			<p class="content-text-no-line-space">
-			<a href="images/test-image-1.jpg">
-			List Link 1. (test-image-1)</a></p>
-
-			<p class="content-text-no-line-space">
-			<a href="images/test-image-2.jpg">
-			List Link 2. (test-image-2)</a></p>
-
-			<p class="content-text-no-line-space">
-			<a href="images/test-image-3.jpg">
-			List Link 3. (test-image-3)</a></p>
-
-
-			<br />
-			<div class="image-gallery">
-			<div class="image-card">
-				<content-image>
-				<a href="images/test-image-2.jpg">
-			        <img src="images/test-image-2.jpg" width="500" />
-				<span>test-image-2 (text-aligned)</span></a>
-				</content-image>
-			</div>
-
-
-			<div class="center image-card">
-				<content-image>
-				<a href="images/test-image-2.jpg">
-			        <img src="images/test-image-2.jpg" width="500" />
-				<span>test-image-2 (centered)</span></a>
-				</content-image>
-			</div>
-
-
-			<div class="align-right image-card">
-				<content-image>
-				<a href="images/test-image-2.jpg">
-			        <img src="images/test-image-2.jpg" width="500" />
-				<span>test-image-2 (align-right)</span></a>
-				</content-image>
-			</div>
-
-
-			<div class="center image-grid">
-				<content-image-spaced>
-				<a href="images/test-image-3.jpg">
-			        <img src="images/test-image-3.jpg" width="400" />
-				<span>test-image-3 (centered grid)</span></a>
-				</content-image-spaced>
-
-				<content-image-spaced>
-				<a href="images/test-image-3.jpg">
-				<img src="images/test-image-3.jpg" width="400" />
-				<span>test-image-3 (centered grid)</span></a>
-				</content-image-spaced>
-
-				<content-image-spaced>
-				<a href="images/test-image-3.jpg">
-				<img src="images/test-image-3.jpg" width="400" />
-				<span>test-image-3 (centered grid)</span></a>
-				</content-image-spaced>
-			</div>
-			</div>
-		</div>
-	</div>
-
-
-	<div class="row footer">
-       		<div class="footer">
-			<p>Copyright © your copyright here. No Rights Reserved.</p>
-		</div>
-	</div>
-
-
-    </div> <!-- end box -->
+    <footer class="site-footer">
+      <span>Ariel Veitsman © 2026</span>
+      <span>“See you around.”</span>
+    </footer>
+  </div>
 </body>
 </html>
